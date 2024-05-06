@@ -9,7 +9,7 @@ ENV SPRING_APPLICATION_JSON=\
 
 EXPOSE 8081
 
-COPY target/spring-app*.jar /app/app.jar
+COPY target/spring-app.jar /app/app.jar
 
 #just start the app
 #CMD ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app/app.jar"]
